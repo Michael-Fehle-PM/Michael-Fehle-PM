@@ -12,15 +12,15 @@ The repos pinned below fall into two categories:
 
 **A consumer-facing tool:**
 
-[**Resume Analyser**](https://github.com/YOUR_USERNAME/resume-analyser) — I got tired of manually cross-referencing job descriptions and reordering CV bullets, so I built an AI-powered tool to do it. Upload a CV, paste a JD, get a scored match analysis with matches, partial matches, and gaps rated by importance — plus a reordered CV with the most relevant experience first. Includes a job application tracker backed by SQLite. Built with FastAPI, the Anthropic Claude API, and plain HTML/CSS/JS.
+[**Resume Analyzer**](https://github.com/Michael-Fehle-PM/resume-analyser) — I got tired of manually cross-referencing job descriptions and reordering CV bullets, so I built an AI-powered tool to do it. Upload a CV, paste a JD, get a scored match analysis with matches, partial matches, and gaps rated by importance — plus a reordered CV with the most relevant experience first. Includes a job application tracker backed by SQLite. Built with FastAPI, the Anthropic Claude API, and plain HTML/CSS/JS.
 
 **A data quality toolkit:**
 
 Three lightweight utilities that together cover the full messy-data workflow — generate it, audit it, validate and clean it:
 
-- [**csv_schema_validator**](https://github.com/YOUR_USERNAME/csv_schema_validator) — validate CSV files against a defined schema, review violations, fix what you can, reject what you can't, export a clean dataset
-- [**csv_audit_tool**](https://github.com/YOUR_USERNAME/csv_audit_tool) — detect nulls, duplicates, outliers, mixed delimiters, currency symbols, and date format inconsistencies; runs entirely in the browser
-- [**messy_data_generator**](https://github.com/YOUR_USERNAME/messy_data_generator) — generate realistic messy datasets for testing pipelines and ETL processes; three mess levels, 20+ field types, SQL/XSS injection simulation
+- [**csv_schema_validator**](https://github.com/Michael-Fehle-PM/csv_schema_validator) — validate CSV files against a defined schema, review violations, fix what you can, reject what you can't, export a clean dataset
+- [**csv_audit_tool**](https://github.com/Michael-Fehle-PM/csv_audit_tool) — detect nulls, duplicates, outliers, mixed delimiters, currency symbols, and date format inconsistencies; runs entirely in the browser
+- [**messy_data_generator**](https://github.com/Michael-Fehle-PM/messy_data_generator) — generate realistic messy datasets for testing pipelines and ETL processes; three mess levels, 20+ field types, SQL/XSS injection simulation
 
 All browser-based where possible — no install, no account, no data leaving your machine.
 
